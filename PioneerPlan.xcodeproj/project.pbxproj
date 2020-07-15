@@ -15,6 +15,7 @@
 		4696A68624BE322500725872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4696A68524BE322500725872 /* Assets.xcassets */; };
 		4696A68924BE322500725872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4696A68724BE322500725872 /* LaunchScreen.storyboard */; };
 		4696A69424BE322500725872 /* PioneerPlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A69324BE322500725872 /* PioneerPlanUITests.swift */; };
+		4696A6A624BE890F00725872 /* calenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A6A524BE890F00725872 /* calenderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4696A68F24BE322500725872 /* PioneerPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PioneerPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4696A69324BE322500725872 /* PioneerPlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PioneerPlanUITests.swift; sourceTree = "<group>"; };
 		4696A69524BE322500725872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4696A69E24BE324E00725872 /* PioneerPlan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PioneerPlan.entitlements; sourceTree = "<group>"; };
+		4696A6A524BE890F00725872 /* calenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		4696A66D24BE322400725872 = {
 			isa = PBXGroup;
 			children = (
+				4696A6A524BE890F00725872 /* calenderViewController.swift */,
 				4696A67824BE322400725872 /* PioneerPlan */,
 				4696A69224BE322500725872 /* PioneerPlanUITests */,
 				4696A67724BE322400725872 /* Products */,
@@ -81,6 +85,7 @@
 		4696A67824BE322400725872 /* PioneerPlan */ = {
 			isa = PBXGroup;
 			children = (
+				4696A69E24BE324E00725872 /* PioneerPlan.entitlements */,
 				4696A67924BE322400725872 /* AppDelegate.swift */,
 				4696A67B24BE322400725872 /* SceneDelegate.swift */,
 				4696A67D24BE322400725872 /* ViewController.swift */,
@@ -206,6 +211,7 @@
 				4696A67E24BE322400725872 /* ViewController.swift in Sources */,
 				4696A68424BE322400725872 /* PioneerPlan.xcdatamodeld in Sources */,
 				4696A67A24BE322400725872 /* AppDelegate.swift in Sources */,
+				4696A6A624BE890F00725872 /* calenderViewController.swift in Sources */,
 				4696A67C24BE322400725872 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,14 +372,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PioneerPlan/PioneerPlan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PioneerPlan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Quiz-Co..PioneerPlan";
+				PRODUCT_BUNDLE_IDENTIFIER = PioPlanners.PioneerPlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -383,14 +391,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PioneerPlan/PioneerPlan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PioneerPlan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Quiz-Co..PioneerPlan";
+				PRODUCT_BUNDLE_IDENTIFIER = PioPlanners.PioneerPlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
