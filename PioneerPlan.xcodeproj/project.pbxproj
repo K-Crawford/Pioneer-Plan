@@ -16,8 +16,9 @@
 		4696A68924BE322500725872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4696A68724BE322500725872 /* LaunchScreen.storyboard */; };
 		4696A69424BE322500725872 /* PioneerPlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A69324BE322500725872 /* PioneerPlanUITests.swift */; };
 		4696A6A624BE890F00725872 /* calenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A6A524BE890F00725872 /* calenderViewController.swift */; };
-		EA47D1C824BF59ED009FC5FE /* clubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47D1C724BF59ED009FC5FE /* clubsViewController.swift */; };
-		EA47D1CA24BF5A0F009FC5FE /* quizzesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47D1C924BF5A0F009FC5FE /* quizzesViewController.swift */; };
+		4696A6AA24BFEC9600725872 /* pointQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A6A924BFEC9600725872 /* pointQuizViewController.swift */; };
+		4696A6AC24BFECB100725872 /* pointRubricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A6AB24BFECB100725872 /* pointRubricViewController.swift */; };
+		4696A6AE24BFECCB00725872 /* pointEarnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A6AD24BFECCB00725872 /* pointEarnersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +46,9 @@
 		4696A69524BE322500725872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4696A69E24BE324E00725872 /* PioneerPlan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PioneerPlan.entitlements; sourceTree = "<group>"; };
 		4696A6A524BE890F00725872 /* calenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderViewController.swift; sourceTree = "<group>"; };
-		EA47D1C724BF59ED009FC5FE /* clubsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clubsViewController.swift; sourceTree = "<group>"; };
-		EA47D1C924BF5A0F009FC5FE /* quizzesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizzesViewController.swift; sourceTree = "<group>"; };
+		4696A6A924BFEC9600725872 /* pointQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointQuizViewController.swift; sourceTree = "<group>"; };
+		4696A6AB24BFECB100725872 /* pointRubricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointRubricViewController.swift; sourceTree = "<group>"; };
+		4696A6AD24BFECCB00725872 /* pointEarnersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointEarnersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,9 @@
 		4696A66D24BE322400725872 = {
 			isa = PBXGroup;
 			children = (
+				4696A6AD24BFECCB00725872 /* pointEarnersViewController.swift */,
+				4696A6AB24BFECB100725872 /* pointRubricViewController.swift */,
+				4696A6A924BFEC9600725872 /* pointQuizViewController.swift */,
 				4696A6A524BE890F00725872 /* calenderViewController.swift */,
 				4696A67824BE322400725872 /* PioneerPlan */,
 				4696A69224BE322500725872 /* PioneerPlanUITests */,
@@ -98,8 +103,6 @@
 				4696A68724BE322500725872 /* LaunchScreen.storyboard */,
 				4696A68A24BE322500725872 /* Info.plist */,
 				4696A68224BE322400725872 /* PioneerPlan.xcdatamodeld */,
-				EA47D1C724BF59ED009FC5FE /* clubsViewController.swift */,
-				EA47D1C924BF5A0F009FC5FE /* quizzesViewController.swift */,
 			);
 			path = PioneerPlan;
 			sourceTree = "<group>";
@@ -214,12 +217,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA47D1C824BF59ED009FC5FE /* clubsViewController.swift in Sources */,
+				4696A6AE24BFECCB00725872 /* pointEarnersViewController.swift in Sources */,
+				4696A6AA24BFEC9600725872 /* pointQuizViewController.swift in Sources */,
 				4696A67E24BE322400725872 /* ViewController.swift in Sources */,
 				4696A68424BE322400725872 /* PioneerPlan.xcdatamodeld in Sources */,
+				4696A6AC24BFECB100725872 /* pointRubricViewController.swift in Sources */,
 				4696A67A24BE322400725872 /* AppDelegate.swift in Sources */,
 				4696A6A624BE890F00725872 /* calenderViewController.swift in Sources */,
-				EA47D1CA24BF5A0F009FC5FE /* quizzesViewController.swift in Sources */,
 				4696A67C24BE322400725872 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
