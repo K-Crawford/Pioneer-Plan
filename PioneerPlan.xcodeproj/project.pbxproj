@@ -19,6 +19,8 @@
 		4696A6AA24BFEC9600725872 /* pointQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A6A924BFEC9600725872 /* pointQuizViewController.swift */; };
 		4696A6AC24BFECB100725872 /* pointRubricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A6AB24BFECB100725872 /* pointRubricViewController.swift */; };
 		4696A6AE24BFECCB00725872 /* pointEarnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A6AD24BFECCB00725872 /* pointEarnersViewController.swift */; };
+		4696A6B224C0D07E00725872 /* clubsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A6B124C0D07E00725872 /* clubsListViewController.swift */; };
+		4696A6B424C0DC7700725872 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696A6B324C0DC7700725872 /* signUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4696A6A924BFEC9600725872 /* pointQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointQuizViewController.swift; sourceTree = "<group>"; };
 		4696A6AB24BFECB100725872 /* pointRubricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointRubricViewController.swift; sourceTree = "<group>"; };
 		4696A6AD24BFECCB00725872 /* pointEarnersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointEarnersViewController.swift; sourceTree = "<group>"; };
+		4696A6B124C0D07E00725872 /* clubsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clubsListViewController.swift; sourceTree = "<group>"; };
+		4696A6B324C0DC7700725872 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 		4696A66D24BE322400725872 = {
 			isa = PBXGroup;
 			children = (
+				4696A6B324C0DC7700725872 /* signUpViewController.swift */,
+				4696A6B124C0D07E00725872 /* clubsListViewController.swift */,
 				4696A6AD24BFECCB00725872 /* pointEarnersViewController.swift */,
 				4696A6AB24BFECB100725872 /* pointRubricViewController.swift */,
 				4696A6A924BFEC9600725872 /* pointQuizViewController.swift */,
@@ -217,9 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4696A6B424C0DC7700725872 /* signUpViewController.swift in Sources */,
 				4696A6AE24BFECCB00725872 /* pointEarnersViewController.swift in Sources */,
 				4696A6AA24BFEC9600725872 /* pointQuizViewController.swift in Sources */,
 				4696A67E24BE322400725872 /* ViewController.swift in Sources */,
+				4696A6B224C0D07E00725872 /* clubsListViewController.swift in Sources */,
 				4696A68424BE322400725872 /* PioneerPlan.xcdatamodeld in Sources */,
 				4696A6AC24BFECB100725872 /* pointRubricViewController.swift in Sources */,
 				4696A67A24BE322400725872 /* AppDelegate.swift in Sources */,
